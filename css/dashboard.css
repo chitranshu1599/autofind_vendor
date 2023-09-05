@@ -1,0 +1,270 @@
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
+.side-nav {
+    border-radius: 10px;
+    background: #51FFA3;
+    width: fit-content;
+    height: fit-content;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-nav button {
+    padding: 0;
+    margin: 2rem auto 1rem;
+}
+
+.side-nav button:focus {
+    box-shadow: none;
+}
+
+.side-nav button img{
+    height: 1.8rem;
+}
+
+.dashboard-profile {
+    font-family:"helvetica"
+}
+
+.dashboard-profile-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-profile-head h1 {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.dashboard-profile-head button:focus {
+    box-shadow: none;
+}
+
+.dashboard-profile-head img {
+    height: 2rem;
+}
+
+.dashboard-row {
+    justify-content: space-between !important;
+}
+
+.dashboard-personal-info h4{
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.dashboard-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.dashboard-input label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.dashboard-input input {
+    background: transparent;
+    border: none;
+    border-bottom: #51FFA3 dotted;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.dashboard-input input:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.dashboard-input select {
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.dashboard-input select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dashboard-input input[type=file] {
+    border-bottom: none;
+    display: none;
+}
+
+.enquiry-btn{
+    color: #000000;
+    border-color: #51FFA3;
+    background: #51FFA3;
+    font-family: 'Raleway';
+    width: 9rem;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.enquiry-btn:hover{
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+}
+
+.enquiry-btn:focus{
+    border: none;
+}
+
+.file-upload {
+    width: fit-content;
+}
+
+.dashboard-btn{
+    font-style: normal;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: .7rem;
+}
+
+.address_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.info label {
+    font-size: 1.1rem;
+}
+
+.info input {
+    width: 60%;
+}
+
+.dashboard-profile-update {
+    text-align: center;
+}
+
+.update-btn {
+    border-radius: 40px;
+    margin-bottom: 1.5rem;
+}
+
+.phone-options {
+    display: none;
+}
+
+@media (min-width: 710px) and (max-width: 980px) {
+    .side-nav {
+        width: 100%;
+        padding: 0.5rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .side-nav button {
+        margin: 1rem auto 1rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 480px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+}

@@ -1,0 +1,290 @@
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
+.side-nav {
+    border-radius: 10px;
+    background: #51FFA3;
+    width: fit-content;
+    height: fit-content;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-nav button {
+    padding: 0;
+    margin: 2rem auto 1rem;
+}
+
+.side-nav button:focus {
+    box-shadow: none;
+}
+
+.side-nav button img{
+    height: 1.8rem;
+}
+
+.boundary{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+    height: fit-content;
+}
+
+.preview-btn{
+    color: #000000;
+    border-color: #51FFA3;
+    background: #51FFA3;
+    font-family: 'Raleway';
+    width: 10rem;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.middle-content{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.star img{
+    width: 0.8rem;
+}
+.star{
+    border-right: 2px solid #FFCB05;
+    padding: 0 1rem;
+}
+.rating-no{
+    border-right: 2px solid #FFCB05;
+    font-size: 11px;
+    padding: 4px;
+}
+.rating-nos{
+    font-size: 11px;
+    padding: 4px;
+}
+.rating-sec{
+    display: flex; 
+    width: fit-content; 
+    border: 2px solid #FFCB05;
+    height: 1.8rem;
+    border-radius: 0.4rem;
+}
+.posted-by{
+    margin-top: 1rem;
+}
+.main-image{
+    margin: 2rem 0 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-image img{
+    width: 16rem;
+}
+.content{
+    text-align: start;
+    margin-left: 3rem;
+}
+.content h2{
+    font-weight: 700;
+}
+.content h6{
+    font-weight: 500;
+    font-size: 0.6rem;
+}
+.content h5 {
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.content h5 span {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: red;
+}
+.content h4{
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.button{
+    width: 70%;
+    justify-content: space-between;
+}
+.button button{
+    width: 11rem;
+}
+.pincode h4{
+    font-size: 14px;
+    margin: 2rem 0 1rem 0;
+}
+.pincode .input-group{
+    width: 50%;
+}
+.pincode .input-group input{
+   height: 2rem;
+   border: none;
+   background-color: #EAEAEA;
+   font-size: 0.8rem;
+}
+.pincode .input-group button{
+   height: 2rem;
+   border: none;
+   background-color: #EAEAEA;
+   font-size: 0.8rem;
+   color: black;
+}
+.rating #p1{
+    margin-top: 4rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 0 !important;
+}
+.rating #p2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.rating .p2 img{
+    width: 1rem;
+}
+.reviews #top{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 2rem 0 ;
+}
+.review-comment{
+    height: 20rem;
+    overflow-y: scroll;
+}
+.review-comment .p1{
+font-size: 0.7rem;
+margin-bottom: 0 !important;
+}
+.review-comment .p1 img{
+width: 1rem;
+}
+.review-comment .p2{
+font-size: 0.7rem;
+}
+.testimonials-section {
+    width: 100%;
+    padding: 2rem 0;
+    
+}
+
+.side-image div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image div img{
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.phone-options {
+    display: none;
+}
+
+@media (min-width: 710px) and (max-width: 980px) {
+    .side-nav {
+        width: 100%;
+        padding: 0.5rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .side-nav button {
+        margin: 1rem auto 1rem;
+    }
+
+    .main-image img {
+        width: 13rem;
+    }
+
+    .side-image div img {
+        height: 7rem;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .button button {
+        width: 45%;
+    }
+
+    .pincode .input-group {
+        width: 70%;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 480px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+    .preview-btn {
+        top: 1rem;
+        left: 0rem;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .button button {
+        width: 9rem;
+    }
+
+    .pincode .input-group {
+        width: 85%;
+    }
+
+    .inventory-section {
+        padding-bottom: 2rem;
+    }
+}

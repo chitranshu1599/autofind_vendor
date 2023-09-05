@@ -1,0 +1,415 @@
+@font-face{
+    font-family:"helvetica";
+    src:url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("woff"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf") format("truetype");
+}
+
+.side-nav {
+    border-radius: 10px;
+    background: #51FFA3;
+    width: fit-content;
+    height: fit-content;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-nav button {
+    padding: 0;
+    margin: 2rem auto 1rem;
+}
+
+.side-nav button:focus {
+    box-shadow: none;
+}
+
+.side-nav button img{
+    height: 1.8rem;
+}
+
+.inventory-section {
+    font-family:"helvetica" !important;
+}
+
+.inventory-heading {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-inventory {
+    width: fit-content;
+}
+
+.inventory-heading h1{
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.inventory-row {
+    justify-content: space-between !important;
+}
+
+.dashboard-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.dashboard-input label {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.dashboard-input input {
+    background: transparent;
+    border: none;
+    border-bottom: #51FFA3 dotted;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.dashboard-input input:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.dashboard-input select {
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.dashboard-input select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dashboard-input input[type=file] {
+    border-bottom: none;
+    display: none;
+}
+
+.inventory-enquiry-btn{
+    color: #000000;
+    border-color: #51FFA3;
+    background: #51FFA3;
+    font-family: 'Raleway';
+    width: 10rem;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.inventory-enquiry-btn:hover{
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+}
+
+.inventory-enquiry-btn:focus{
+    border: none;
+}
+
+.radio-op {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.radio span {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.dashboard-input input[type="radio"] {
+    appearance: none;
+    border-radius: 50%;
+    height: 1.3rem;
+    width: 1.3rem;
+    outline-offset: 2px;
+    outline: 0.2rem solid #FFFFFF;
+    margin-right: 1rem;
+    border-bottom: none;
+}
+
+.dashboard-input input[type="radio"]:checked {
+    background-color: #51FFA3;
+}
+
+.inventory-data {
+    width: 30% !important;
+}
+
+.inventory-input input{
+    background-color: white;
+    padding: .7rem;
+    border-bottom: none;
+    border-radius: 10px;
+    color: #000000;
+}
+
+
+.inventory-input textarea{
+    background-color: white;
+    padding: .7rem;
+    border-bottom: none;
+    border-radius: 10px;
+}
+
+.inventory-input input[type=file] {
+    display: block;
+    padding: .4rem;
+}
+
+.inventory-input input[type=file]::file-selector-button {
+    border: none;
+    height: fit-content;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #51FFA3;
+  }
+  
+.inventory-input input[type=file]::file-selector-button:hover {
+    background-color: #51FFA3;
+    border: none;
+}
+
+.inventory-file-select {
+    width: 30%;
+}
+
+.file-upload {
+    margin: 1rem auto;
+    display: flex !important;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.inventory-btns {
+    text-align: center;
+}
+
+.preview-btn {
+    background-color: #FF396A;
+    border: none;
+    margin-right: 1rem;
+}
+
+.phone-options {
+    display: none;
+}
+
+@media (min-width: 710px) and (max-width: 980px) {
+    .side-nav {
+        width: 100%;
+        padding: 0.5rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .side-nav button {
+        margin: 1rem auto 1rem;
+    }
+
+    .inventory-heading {
+        margin: 0 auto 2rem;
+    }
+
+    .inventory-heading h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+    .inventory-heading {
+        align-items: start;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .inventory-heading h1 {
+        color: #FFF;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .inventory-row {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
+    .radio-op {
+        width: 62%;
+    }
+
+    .inventory-data {
+        width: 100% !important;
+    }
+
+    .file-upload {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .inventory-file-select {
+        width: 100%;
+    }
+
+    .dashboard-input {
+        margin-bottom: 1rem;
+    }
+
+    .inventory-btns {
+        margin-bottom: 2rem;
+    }
+
+    .inventory-section {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 480px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+    .inventory-heading {
+        align-items: start;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .inventory-heading h1 {
+        color: #FFF;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .inventory-row {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    
+    .radio-op {
+        width: 62%;
+    }
+
+    .inventory-data {
+        width: 100% !important;
+    }
+
+    .file-upload {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .inventory-file-select {
+        width: 100%;
+    }
+
+    .dashboard-input {
+        margin-bottom: 1rem;
+    }
+
+    .inventory-btns {
+        margin-bottom: 2rem;
+    }
+
+    .inventory-section {
+        padding-bottom: 2rem;
+    }
+}

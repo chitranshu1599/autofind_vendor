@@ -1,0 +1,335 @@
+.side-nav {
+    border-radius: 10px;
+    background: #51FFA3;
+    width: fit-content;
+    height: fit-content;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-nav button {
+    padding: 0;
+    margin: 2rem auto 1rem;
+}
+
+.side-nav button:focus {
+    box-shadow: none;
+}
+
+.side-nav button img{
+    height: 1.8rem;
+}
+
+.ec {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ec-head {
+    margin-bottom: 2rem;
+}
+
+.ec-head h1 {
+    color: white;
+}
+
+.accordion-item {
+    margin-bottom: 2rem;
+}
+
+.accordion-button {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: white;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../assets/drop-down.svg);
+}
+
+.accordion-button::after {
+    height: 1.5rem;
+    background-image: url(../assets/drop-down.svg);
+}
+
+.card-data {
+    margin-bottom: 1rem;
+}
+
+.card-data h5{
+    font-weight: 700;
+}
+
+.seamless-btn{
+    color: #fff;
+    border-color: #000000;
+    background: #000000;
+    font-family: 'Raleway';
+    width: 10rem;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.seamless-btn:hover {
+    color: #fff;
+}
+
+.order-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding: 1rem 1rem;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-body {
+    padding: 0 1rem;
+}
+
+.modal-body p {
+    font-size: .9rem;
+}
+
+.modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-dialog {
+    max-width: 680px;
+}
+
+.order-select {
+    border-radius: 10px;
+    background: #51FFA3;
+    outline: #51FFA3;
+    border: none;
+}
+
+.form-select {
+    border-radius: 10px;
+    background-color: #51ffa3;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}
+
+.text-area {
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.text-area textarea {
+    border-radius: 10px;
+    background-color: #51FFA3;
+    color: black;
+    padding: .5rem 1rem;
+    width: 100%;
+}
+
+.order-cancel-btn {
+    background: #FF396A;
+    width: 13rem;
+    border: none;
+    color: #000000;
+    font-weight: 700;
+}
+
+.order-status-select {
+    background-color: #000000;
+    color:white;
+    width: 10rem;
+    font-weight: 700;
+}
+
+.order-status-select:focus {
+    border: none;
+    outline: none;
+}
+
+.options-btn {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-options {
+    display: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+    .options-btn {
+        width: 35%;
+    }   
+}
+
+@media (min-width: 710px) and (max-width: 980px) {
+    .side-nav {
+        width: 100%;
+        padding: 0.5rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    .side-nav button {
+        margin: 1rem auto 1rem;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+    .card-data {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
+
+    .can-btn {
+        width: 100%;
+    }
+
+    .options-btn {
+        width: 100%;
+    }
+
+    .order-can-btn {
+        width: 9rem;
+    }
+}
+
+@media (min-width: 310px) and (max-width: 480px) {
+    .side-nav {
+        display: none;
+    }
+
+    .phone-options {
+        display: block;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+    }
+
+    .phone-options .dropdown button img{
+        height: 3rem;
+    }
+
+    .phone-options .dropdown .dropdown-menu.show {
+        width: 17rem;
+        background-color: #FFF;
+        height: fit-content;
+        padding: .2rem;
+        border-radius: 10px;   
+    }
+
+    .op-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .op-items button img{
+        height: 2.5rem !important;
+    }
+
+    .card-data {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
+
+    .can-btn {
+        width: 100%;
+    }
+
+    .options-btn {
+        width: 100%;
+    }
+
+    .order-can-btn {
+        width: 9rem;
+    }
+}

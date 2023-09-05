@@ -1,0 +1,1887 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.seamless-section .seamless {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(270deg, #000000 -101.43%, #FFFFFF -101.41%, #51FFA3 99.72%);
+    border-radius: 35px 35px 0px 0px;
+}
+
+.index-padding {
+    padding: 60px 150px;
+}
+
+.section-padding {
+    padding: 60px 150px 0px 150px;
+}
+
+.seamless .seamless-heading {
+    font-family: 'Raleway';
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.seamless .seamless-para {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.seamless .seamless-img {
+    width: 40rem;
+}
+
+.seamless-btn {
+    color: #fff;
+    border-color: #000000;
+    background: #000000;
+    font-family: 'Raleway';
+    width: 10rem;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.seamless-btn:hover {
+    color: #fff;
+}
+
+.offer-section .offer {
+    background: #000000;
+}
+
+.offer .offer-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.offer-card .card1 {
+    background: linear-gradient(0deg, #51FFA3 13.86%, #000000 76.8%);
+    border: 0;
+    border-radius: 10px;
+}
+
+.offer-card .card1:hover {
+    background: #FFFFFF;
+}
+
+.offer-card .card-img {
+    width: 100%;
+    height: 20rem;
+}
+
+.offer-card .card-heading {
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.offer-card .card-body {
+    padding: 1rem 3rem;
+    height: 6rem;
+}
+
+.subscription-section .subscription {
+    background: #000000;
+}
+
+.subscription .sub-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.subscription .plan-section {
+    padding-bottom: 50px;
+}
+
+.plan-section .plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90.53deg, #FFFFFF 0%, #FFFFFF 99.46%);
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.plan-section .plan:hover {
+    background: #51FFA3;
+}
+
+.plan .plan-head {
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.plan .price-head {
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.plan .plan-para {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.number-section .number {
+    background: #000000;
+    padding: 0px 40px;
+}
+
+.number .number-heading {
+    font-family: 'Raleway';
+    color: #51FFA3;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.number .num-top-head {
+    font-family: 'Raleway';
+    color: #51FFA3;
+    font-size: 130px;
+    font-weight: 600;
+    line-height: 200px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.number .num-bottom-head {
+    font-family: 'Raleway';
+    color: #51FFA3;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.enquiry-section .enquiry {
+    background: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enquiry .enquiry-left {
+    width: 40%;
+}
+
+.enquiry .enquiry-head {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.enquiry .form-control {
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.enquiry-left .form-margin {
+    margin-bottom: 30px;
+}
+
+.enquiry .enquiry-img {
+    width: 28rem;
+}
+
+.enquiry-btn {
+    color: #000000;
+    border-color: #51FFA3;
+    background: #51FFA3;
+    font-family: 'Raleway';
+    width: 9rem;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.enquiry-btn:hover {
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+}
+
+.sub-model .sub-model-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.sub-model .card {
+    border-radius: 10px;
+}
+
+.sub-model .card-body {
+    height: 45rem;
+}
+
+.sub-model .card-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sub-model .plan-head {
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
+.sub-model .plan-price {
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.sub-model .plan-para {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sub-model .seamless-button {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.create-account .create-account-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.create-account .create-account-para {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.create-account .login-link {
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: #51FFA3;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.create-account .form-margin {
+    margin-bottom: 40px;
+}
+
+.create-account .form-label {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.create-account .form-control {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    color: #6B6B6B;
+    border-radius: 10px;
+}
+
+.create-account .form-select {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    color: #6B6B6B;
+    border-radius: 10px;
+    background-image: url(/assets/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 20px 18px;
+}
+
+.create-account .form-check-label {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.create-account .check-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.create-account .form-check-input:checked {
+    background-color: #51FFA3;
+    border-color: #51FFA3;
+}
+
+.create-account .enquiry-button {
+    text-align: center;
+}
+
+.login .login-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.login .login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login .login-form {
+    width: 25rem;
+}
+
+.login .login-para {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.login .login-link {
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: #51FFA3;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.login .login-margin {
+    margin-bottom: 50px;
+}
+
+.login .form-label {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login .form-control {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    color: #6B6B6B;
+    border-radius: 10px;
+}
+
+.login .enquiry-button {
+    text-align: center;
+}
+
+.login .login-img {
+    width: 25rem;
+}
+
+.verify-otp-section .verify-otp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.verify-otp .left-otp {
+    width: 31rem;
+}
+
+.verify-otp .verify-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.verify-otp .verify-para {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.verify-otp .otp-margin {
+    margin-right: 35px;
+}
+
+.verify-otp .ap-otp-input {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 10%;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.verify-otp .otp-verify {
+    margin-bottom: 50px;
+}
+
+.verify-otp .otp-img {
+    width: 30rem;
+}
+
+.verify-mssg-section .verify-mssg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verify-mssg .verify-mssg-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.verify-mssg .verify-sub-mssg {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.verify-mssg .verify-para {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+input[type=file]::file-selector-button {
+    border: none;
+    padding: 6px 5px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #51FFA3;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #51FFA3;
+    border: none;
+}
+
+.notification .notification-heading {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.notification .notification-item{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.notification .notification-para {
+    font-family: 'Raleway';
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.notification .notific-link {
+    font-family: 'Raleway';
+    color: #51FFA3;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.notification .img-dot {
+    width: 1rem;
+    margin-right: 15px;
+}
+
+.bottom-pagination .page-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.bottom-pagination .list-item {
+    list-style: none;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.bottom-pagination .page-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom-pagination .active {
+    color: #51FFA3 !important;
+}
+
+.col-head {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.col-data {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.inventory .inventory-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.inventory .left-inventory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inventory .custom-mob{
+    display: flex;
+}
+
+.inventory .inventory-head {
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.inventory .custom-select {
+    position: relative;
+    font-family: Arial;
+    margin-right: 25px;
+    width: 200px;
+}
+
+.inventory .custom-select select {
+    display: none;
+}
+
+.select-selected {
+    background-color: #424242;
+}
+
+
+.inventory .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 25px;
+    height: 16px;
+    border: 6px solid transparent;
+    background-image: url(/assets/inventory-down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+
+.inventory .select-selected.select-arrow-active:after {
+    top: 13px;
+}
+
+.inventory .select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+}
+
+
+.inventory .select-items {
+    position: absolute;
+    background-color: #424242;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+.inventory .select-hide {
+    display: none;
+}
+
+.inventory .select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.inventory .enquiry-btn {
+    width: 12rem;
+    line-height: 30px;
+    border-radius: 25px;
+}
+
+.inventory .styled-table {
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.inventory .styled-table thead tr {
+    background-color: #FF396A;
+    color: #000000;
+    text-align: center;
+}
+
+.inventory .styled-table th {
+    padding: 25px 15px;
+}
+
+.inventory .styled-table td {
+    padding: 12px 15px;
+}
+
+.inventory .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background: #ffffff;
+}
+
+.inventory .styled-table .table-head {
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.inventory .styled-table .table-data {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: thin solid #51FFA3;
+}
+
+.inventory .action-options .option-click1 {
+    margin-right: 10px
+}
+
+.inventory .action-options .option-click2 {
+    margin-right: 10px
+}
+
+
+.inventory .action-options .action-img1 {
+    width: 2rem;
+}
+
+.inventory .action-options .action-img2 {
+    width: 1.5rem;
+}
+
+.inventory .action-options .action-img3 {
+    width: 1.5rem;
+}
+
+.phone-bottom-nav {
+    display: none;
+}
+
+
+@media (min-width: 310px) and (max-width: 480px) {
+    .index-padding {
+        padding: 30px 50px;
+    }
+    .seamless .seamless-heading {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .seamless .seamless-para{
+        display: none;
+    }
+    .seamless-btn {
+        width: 5rem;
+        font-size: 10px;
+        line-height: 10px;
+        border-radius: 15px;
+    }
+    .seamless .seamless-img {
+        width: 9rem;
+    }
+    .offer .offer-heading {
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .section-padding {
+        padding: 30px 50px 0px 50px;
+    }
+    .offer-card .card-img {
+        width: 100%;
+        height: 12rem;
+    }
+    .offer .offer-card{
+        margin-bottom: 50px;
+    }
+    .offer-card .card-body {
+        padding: 1rem 1rem;
+    }
+    .offer-card .card-heading {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .subscription .sub-heading {
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
+    .plan-section .plan {
+        display: block;
+        padding: 20px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+    }
+    .plan .plan-head {
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .plan .plan-para {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .plan .price-head {
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .subscription .seamless-button{
+        position: absolute;
+        left: 33%;
+    }
+    .subscription .seamless-btn {
+        width: 8rem;
+        font-size: 16px;
+        line-height: 25px;
+        border-radius: 20px;
+        color: #000000;
+        border-color: #51FFA3;
+        background: #51FFA3;
+    }
+    .subscription .plan .price-head {
+        text-align: center;
+    }
+    .number .number-heading {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .enquiry-section{
+        margin-bottom: 50px;
+    }
+    .enquiry .enquiry-right{
+        display: none;
+    }
+    .enquiry .enquiry-left {
+        width: 100%;
+    }.enquiry .enquiry-head {
+        font-size: 29px;
+        line-height: 35px;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .enquiry .enquiry-button{
+        margin-bottom: 50px;
+    }
+    .notification .notification-heading {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .sub-model .sub-model-heading {
+        font-size: 29px;
+        line-height: 30px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .sub-model .plan-head {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .sub-model .plan-price {
+        font-size: 23px;
+        line-height: 25px;
+    }
+    .sub-model .plan-para {
+        font-size: 14px;
+        line-height: 22px;
+    }    
+    .sub-model .modal-card {
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .sub-model .seamless-btn {
+        background: #51FFA3;
+        border-color: #51FFA3;
+        color: #000000;
+        width: 8rem;
+        font-size: 13px;
+        line-height: 20px;
+        border-radius: 20px;
+        font-weight: 800;
+    }
+    .sub-model .seamless-button {
+        text-align: center;
+        margin: 0px;
+        position: absolute;
+        bottom: -15px;
+        left: 82px;
+    }
+    .create-account .create-account-heading {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .create-account .create-account-para {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .create-account .login-link {
+        font-size: 18px;
+    }
+    .create-account .form-margin {
+        margin-bottom: 15px;
+    }
+    .create-account .enquiry-btn {
+        border-radius: 20px;
+    }
+    .login .login-form {
+        width: 19rem;
+        margin-top: 25rem;
+    }
+    .login .login-content {
+        display: block;
+    }
+    .login .login-heading {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 0px;
+    }
+    .login .login-img {
+        width: 15rem;
+    }
+    .login .right-content{
+        position: absolute;
+        top: 28%;
+        left: 20%;
+    }
+    .login .login-margin {
+        margin-bottom: 20px;
+    }
+    .login .login-para {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .bottom-pagination .page-list {
+        margin-bottom: 100px;
+    }
+    .sub-model-section{
+        margin-bottom: 50px;
+    }
+    .verify-otp-section{
+        margin-bottom: 70px;
+    }
+    .verify-mssg-section{
+        margin-bottom: 70px;
+    }
+    .create-account-section{
+        margin-bottom: 70px;
+    }
+    .login-section{
+        margin-bottom: 50px;
+    }
+    .login .login-link {
+        font-size: 18px;
+    }
+    .verify-otp-section .verify-otp {
+        display: block;
+    }
+    .verify-otp .left-otp {
+        width: 20rem;
+    }
+    .verify-otp .otp-img {
+        width: 19rem;
+    }
+    .verify-otp .verify-heading {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .verify-otp .verify-para {
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 18rem;
+    }
+    .verify-otp .right-otp{
+        position: absolute;
+        top: 30%;
+    }
+    .verify-otp .ap-otp-input {
+        width: 12%;
+        height: 40px;
+        font-size: 20px;
+    }
+    .verify-otp .otp-margin {
+        margin-right: 13px;
+    }
+    .verify-otp .enquiry-button{
+        text-align: center;
+    }
+    .enquiry-btn {
+        border-radius: 20px;
+    }
+    .verify-mssg-section .verify-mssg {
+        display: block;
+    }
+    .verify-mssg .mssg-img{
+        width: 20rem;
+        margin-top: 40px;
+    }
+    .verify-mssg .verify-mssg-heading {
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .verify-mssg .verify-sub-mssg {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .verify-mssg .verify-para {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .verify-mssg .enquiry-button{
+        text-align: center;
+    }
+    .verify-mssg .enquiry-btn {
+        width: 7rem;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .notification .img-dot {
+        width: 0.8rem;
+        margin-right: 10px;
+    }
+    .notification .notification-para {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    .notification .notific-link{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .inventory-section{
+        margin-bottom: 50px;
+    }
+    .inventory .inventory-option {
+        display: block;
+        background: none;
+        padding: 10px 0px;
+    }
+    .inventory .left-inventory {
+        display: block;
+    }
+    .inventory .inventory-head {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }   
+    .inventory .right-inventory{
+        position: relative;
+    }
+    .inventory .custom-mob{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .inventory .custom-select {
+        margin-right: 0px;
+        width: 175px;
+    }
+    .inventory .bottom-pagination .page-list {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .inventory .select-items div, .select-selected {
+        padding: 3px 10px;
+    }
+    .inventory .select-selected.select-arrow-active:after {
+        top: 10px;
+    }
+    .inventory .select-selected:after {
+        top: 10px;
+        height: 12px;
+        background-size: 16px 16px;
+    }
+    .inventory .enquiry-button{
+        position: absolute;
+        top: -113px;
+        left: 205px;
+    }
+    .inventory .enquiry-btn {
+        width: 10.1rem;
+        font-size: 16px;
+        line-height: 16px;
+        border-radius: 25px;
+    } 
+    .inventory .styled-table {
+        margin-bottom: 0px;
+    }
+    .inventory .styled-table .table-head {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .inventory .styled-table th {
+        padding: 16px 14px;
+    }
+    .inventory .styled-table .table-data {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .inventory .styled-table td {
+        padding: 0px 14px;
+    }
+    .inventory .action-options{
+        display: flex;
+    }
+    .inventory .action-options .action-img1 {
+        width: 1.7rem;
+    }
+    .inventory .action-options .action-img2 {
+        width: 1.3rem;
+    }
+    .inventory .action-options .action-img3 {
+        width: 1.3rem;
+    }
+
+    .phone-bottom-nav {
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+        bottom: 0;
+        display: block;
+        padding-bottom: 1rem;
+        background-color: #fff;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .no-login-bn-options {
+        padding: .5rem .5rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .no-login-bn-op {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #000000;
+        font-weight: 600;
+        background: transparent;
+        border: none;
+    }
+
+    .no-login-bn-op img {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+    }
+
+    .no-login-active img {
+        border: dashed #FF396A;
+        border-radius: 50%;
+    }
+
+    .no-login-bn-op span {
+        margin-top: .5rem;
+        font-size: .8rem;
+    }
+    .profile-modal .modal-dialog-centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100% - 1rem);
+    }
+    .profile-modal .modal-content {
+        width: 35%;
+    }
+    .modal-backdrop.show {
+        opacity: 0.9;
+    }
+    .profile-modal .list-group-item {
+        position: relative;
+        display: block;
+        padding: 0.5rem 1rem;
+        color: #000000;
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: none;
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,.125);
+    }
+    .profile-modal .list-group-item.active {
+        z-index: 2;
+        color: #000000;
+        background-color: #51FFA3;
+        border-color: #51FFA3;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 700px) {
+    /* .index-padding {
+        padding: 20px 70px;
+    }
+    .seamless .seamless-img {
+        width: 20rem;
+    }
+    .seamless .seamless-heading {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .seamless .seamless-para {
+        font-size: 9px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .seamless-btn {
+        width: 6rem;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    }
+    .section-padding {
+        padding: 20px 70px 0px 70px;
+    }
+    .offer .offer-heading {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .offer-card .card-img {
+        width: 100%;
+        height: 10rem;
+    }
+    .offer-card .card-body {
+        padding: 0.2rem 0.5rem;
+    }
+    .offer-card .card-heading {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .subscription .sub-heading {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .plan-section .plan {
+        padding: 10px;
+        margin-bottom: 25px;
+    }
+    .plan .plan-head {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .plan .plan-para {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .plan .price-head {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .number .number-heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .number .num-top-head {
+        font-size: 80px;
+        line-height: 130px;
+    }
+    .number .num-bottom-head {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .enquiry-section{
+        margin: 50px 0px;
+    }
+    .enquiry .enquiry-head {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .enquiry .enquiry-img {
+        width: 20rem;
+    }
+    .enquiry-btn {
+        width: 7rem;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    } */
+}
+
+
+@media (min-width: 710px) and (max-width: 980px) {
+    .index-padding {
+        padding: 20px 70px;
+    }
+    .seamless .seamless-img {
+        width: 20rem;
+    }
+    .seamless .seamless-heading {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+    .seamless .seamless-para {
+        font-size: 9px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .seamless-btn {
+        width: 6rem;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    }
+    .section-padding {
+        padding: 20px 70px 0px 70px;
+    }
+    .offer .offer-heading {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .offer-card .card-img {
+        width: 100%;
+        height: 10rem;
+    }
+    .offer-card .card-body {
+        padding: 0.2rem 0.5rem;
+    }
+    .offer-card .card-heading {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .subscription .sub-heading {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .plan-section .plan {
+        padding: 10px;
+        margin-bottom: 25px;
+    }
+    .plan .plan-head {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .plan .plan-para {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .plan .price-head {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .number .number-heading {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .number .num-top-head {
+        font-size: 80px;
+        line-height: 130px;
+    }
+    .number .num-bottom-head {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .enquiry-section{
+        margin: 50px 0px;
+    }
+    .enquiry .enquiry-head {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .enquiry .enquiry-img {
+        width: 20rem;
+    }
+    .enquiry-btn {
+        width: 7rem;
+        font-size: 12px;
+        line-height: 15px;
+        border-radius: 10px;
+    }    
+    .create-account .create-account-heading {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .create-account .create-account-para {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .create-account .login-link {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .create-account .form-label {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .create-account .form-check-label {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .create-account .check-box {
+        margin-top: 25px;
+    }
+    .login .login-heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .login .login-margin {
+        margin-bottom: 25px;
+    }
+    .login .login-para {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .login .login-para {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .login .form-label {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .login .login-img {
+        width: 20rem;
+    }
+    .verify-otp .verify-heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .verify-otp .verify-para {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .verify-otp .left-otp {
+        width: 20rem;
+    }
+    .verify-otp .otp-verify {
+        margin-bottom: 40px;
+    }
+    .verify-otp .otp-margin {
+        margin-right: 18px;
+    }
+    .verify-otp .ap-otp-input {
+        width: 10%;
+        height: 40px;
+    }
+    .verify-otp .otp-img {
+        width: 22rem;
+    }
+    .verify-mssg .verify-mssg-heading {
+        font-size: 37px;
+        margin-bottom: 30px;
+    }
+    .verify-mssg .verify-sub-mssg {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .verify-mssg .verify-para {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .verify-mssg .mssg-img{
+        width: 18rem;
+    }
+    .inventory .inventory-option {
+        padding: 16px 12px;
+    }
+    .inventory .inventory-head {
+        font-size: 35px;
+        line-height: 45px;
+        margin-right: 5px;
+    }
+    .inventory .custom-select {
+        margin-right: 5px;
+        width: 140px;
+    }
+    .inventory .enquiry-btn {
+        width: 9rem;
+    }
+    .select-selected {
+        padding: 8px 10px;
+    }
+    .inventory .styled-table th {
+        padding: 16px 14px;
+    }
+    .inventory .styled-table .table-head {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .inventory .styled-table td {
+        padding: 5px 7px;
+    }
+    .inventory .styled-table .table-data {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .inventory .action-options .option-click1 {
+        margin-right: 5px;
+    }
+    .inventory .action-options .option-click2 {
+        margin-right: 5px;
+    }
+    .inventory .action-options .action-img1 {
+        width: 1.2rem;
+    }
+    .inventory .action-options .action-img2 {
+        width: 1rem;
+    }
+    .inventory .action-options .action-img3 {
+        width: 1rem;
+    }
+    .sub-model .sub-model-heading {
+        margin-bottom: 45px;
+    }
+    .sub-model .plan-head {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .sub-model .plan-price {
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .sub-model .plan-para {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .sub-model .card-body {
+        height: 50rem;
+    }
+    .notification .notification-heading {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .notification .notification-para {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .notification .notific-link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bottom-pagination .list-item {
+        font-size: 14px;
+        line-height: 25px;
+        margin-right: 5px;
+    }
+    
+}
+
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+    .index-padding {
+        padding: 40px 100px;
+    }
+    .seamless .seamless-img {
+        width: 35rem;
+    }
+    .seamless .seamless-heading {
+        font-size: 34px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .seamless .seamless-para {
+        font-size: 13px;
+        line-height: 25px;
+        margin-bottom: 30px;
+    
+    }
+    .seamless-btn {
+        width: 9rem;
+        font-size: 16px;
+        line-height: 25px;
+        border-radius: 10px;
+    }
+    .section-padding {
+        padding: 40px 100px 0px 100px;
+    }
+    .offer .offer-heading {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+
+    .offer-card .card-heading {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .subscription .sub-heading {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+    .plan-section .plan {
+        padding: 18px;
+        margin-bottom: 40px;
+    }
+    .plan .plan-head {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .plan .plan-para {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .plan .price-head {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .number .number-heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .number .num-top-head {
+        font-size: 115px;
+        line-height: 180px;
+    }
+    .number .num-bottom-head {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .enquiry-section{
+        margin: 50px 0px;
+    }
+    .enquiry .enquiry-head {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .enquiry .enquiry-img {
+        width: 26rem;
+    }
+    .enquiry-btn {
+        width: 8rem;
+        font-size: 16px;
+        line-height: 25px;
+        border-radius: 10px;
+    }
+    .create-account .create-account-heading {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .create-account .create-account-para {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+    .create-account .login-link {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .create-account .form-label {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .create-account .form-check-label {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .create-account .check-box {
+        margin-top: 40px;
+    }
+    .login .login-heading {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .login .login-margin {
+        margin-bottom: 45px;
+    }
+    .login .login-para {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .login .login-para {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .login .form-label {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .login .login-img {
+        width: 23rem;
+    }
+    .verify-otp .verify-heading {
+        font-size: 50px;
+        line-height: 64px;
+    }
+    .verify-otp .verify-para {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 50px;
+    }
+    .verify-otp .left-otp {
+        width: 30rem;
+    }
+    .verify-otp .otp-verify {
+        margin-bottom: 40px;
+    }
+    .verify-otp .otp-margin {
+        margin-right: 33px;
+    }
+    .verify-otp .ap-otp-input {
+        width: 10%;
+        height: 50px;
+    }
+    .verify-otp .otp-img {
+        width: 30rem;
+    }
+    .verify-mssg .verify-mssg-heading {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .verify-mssg .verify-sub-mssg {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .verify-mssg .verify-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .verify-mssg .mssg-img{
+        width: 25rem;
+    }
+    .inventory .styled-table td {
+        padding: 12px 9px;
+    }
+    .sub-model .card-body {
+        height: 50rem;
+    }
+}

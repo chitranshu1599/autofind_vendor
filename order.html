@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofind_vendor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/expert_call_booking.css">
+</head>
+
+<body>
+    <nav class="nav-bar container">
+        <div class="head">
+            <div class="header-user">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="icon" src="./assets/user.svg" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="menu-li">Action</li>
+                        <li class="menu-li">Action</li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="icon" src="./assets/notification.svg" alt="">
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="menu-li">Action</li>
+                        <li class="menu-li">Action</li>
+                        <div class="view_all">
+                            <span><a href="#">view all</a></span>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-options">
+                <a class="op" href="#">Home</a>
+                <a class="op active" href="#">Dashboard</a>
+                <a class="op" href="#">Enquiry</a>
+            </div>
+        </div>
+        <div class="nav-image">
+            <img src="./assets/logo.png" alt="">
+        </div>
+    </nav>
+    <section class="inventory-section container">
+        <div class="row">
+            <div class="col-lg-1">
+                <div class="side-nav">
+                    <button class="btn">
+                        <img src="./assets/sidenav/profile.svg" alt="">
+                    </button>
+                    <button class="btn">
+                        <img src="./assets/sidenav/expert_call.svg" alt="">
+                    </button>
+                    <button class="btn">
+                        <img src="./assets/sidenav/order.svg" alt="">
+                    </button>
+                    <button class="btn">
+                        <img src="./assets/sidenav/inventory.svg" alt="">
+                    </button>
+                    <button class="btn">
+                        <img src="./assets/sidenav/logout.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="ec col-lg-11">
+                <div class="ec-head">
+                    <h1>Orders</h1>
+                </div>
+                <div class="ec-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Order ID:15632486
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="card-data col-lg-3">
+                                            <h5>Name:</h5>
+                                            <h6>Debby Mathew</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Contact No:</h5>
+                                            <h6>84521548766</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Payment:</h5>
+                                            <h6>Complete</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Order Date:</h5>
+                                            <h6>12/07/2023</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Item Ordered:</h5>
+                                            <h6>MRF Tyre</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Quantity:</h5>
+                                            <h6>4</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Delivery:</h5>
+                                            <h6>Pending</h6>
+                                        </div>
+                                        <div class="card-data col-lg-3">
+                                            <h5>Amount:</h5>
+                                            <h6>8000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="order-btns">
+                                        <div class="options-btn">
+                                            <select class="order-status-select form-select" name="expert" id="expert"
+                                            aria-label="Default select example">
+                                            <option selected>Order Pending</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                            class="btn order-can-btn seamless-btn">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Are you sure you want to cancel?</h1>
+                    <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="./assets/modal-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Cancellation of an order might impact your ratings. Please confirm cancellation reason below.
+                    </p>
+                    <div class="body-options">
+                        <div class="order-input">
+                            <select class="form-select" name="order" id="order" aria-label="Default select example">
+                                <option selected>Reason for cancellation</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="text-area">
+                            <textarea name="" id="" cols="81" rows="5"
+                                placeholder="Please describe in 250 characters or less why you want to cancel this order."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="order-cancel-btn seamless-btn btn">Confirm Cancellation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="phone-options">
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="icon" src="./assets/phone-options-btn.svg" alt="">
+            </button>
+            <ul class="dropdown-menu">
+                <div class="op-row">
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/1.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/2.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/3.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/4.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="op-row">
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/5.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/6.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="op-items">
+                        <button class="btn">
+                            <img src="./assets/phone-options/7.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="op-items">
+                        <button class="btn">
+                            <a href="#profileModal" data-bs-toggle="modal"><img src="./assets/phone-options/8.svg" alt=""></a>
+                        </button>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="foot-div">
+                <div class="foot-d1">
+                    <img src="./assets/logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet cons ectetur adipiscing elit aliq ua m Lorem ipsum dolor sit amet cons
+                        ectetur adipiscing</p>
+                    <div class="foot-icon">
+                        <img src="./assets/foot-icon/Facebook.svg" alt="">
+                        <img src="./assets/foot-icon/Twitter.svg" alt="">
+                        <img src="./assets/foot-icon/Instagram.svg" alt="">
+                        <img src="./assets/foot-icon/LinkedIn.svg" alt="">
+                        <img src="./assets/foot-icon/YouTube.svg" alt="">
+                    </div>
+                </div>
+                <div class="foot-d2">
+                    <h5>Product</h5>
+                    <div class="foot-d2-div">
+                        <p>Features</p>
+                        <p>Pricing</p>
+                        <p>Case Studies</p>
+                        <p>Reviews</p>
+                        <p>Updates</p>
+                    </div>
+                </div>
+                <div class="foot-d2">
+                    <h5>Company</h5>
+                    <div class="foot-d2-div">
+                        <p>About</p>
+                        <p>Contact us</p>
+                        <p>Careers</p>
+                        <p>Culture</p>
+                        <p>Blog</p>
+                    </div>
+                </div>
+                <div class="foot-d2">
+                    <h5>Support</h5>
+                    <div class="foot-d2-div">
+                        <p>Getting Started</p>
+                        <p>Help center</p>
+                        <p>Server status</p>
+                        <p>Report a bug</p>
+                        <p>Chat support</p>
+                    </div>
+                </div>
+                <div class="foot-d3">
+                    <h5>Contact us</h5>
+                    <div class="foot-d3-div">
+                        <div class="contact-div">
+                            <img class="email" src="./assets/foot-icon/Email.svg" alt="">
+                            <p>contact@company.com</p>
+                        </div>
+                        <div class="contact-div">
+                            <img src="./assets/foot-icon/Phone.svg" alt="">
+                            <p>(414) 687 - 5892</p>
+                        </div>
+                        <div class="contact-div">
+                            <img src="./assets/foot-icon/Mark.svg" alt="">
+                            <p>794 Mcallister St San Francisco, 94102</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright container">
+            <p>Copyright © 2023 MCG AutoFind</p>
+            <div class="copyright-d">
+                <p>All Rights Reserved | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<div class="modal fade profile-modal pe-0" id="profileModal" aria-hidden="true" aria-labelledby="profileModalLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="profile-modal-content">
+                <ul class="list-group">
+                    <a href="vendor-login.html" class="text-decoration-none">
+                        <li class="list-group-item active">Login</li>
+                    </a>
+                    <a href="personal-details.html" class="text-decoration-none">
+                        <li class="list-group-item">Sign-Up</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
